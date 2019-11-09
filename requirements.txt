@@ -1,0 +1,10 @@
+keras
+nltk
+torch
+pytorch-transformers
+sklearn
+seqeval
+sklearn
+tensorflow-gpu
+pandas
+tqdm
