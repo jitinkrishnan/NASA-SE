@@ -1,0 +1,420 @@
+AADL Architecture Analysis and Design Language
+
+AD2 Advancement Degree of Difficulty Assessment
+
+AIAA American Institute of Aeronautics and Astronautics
+
+AO Announcement of Opportunity
+
+AS9100 Aerospace Quality Management Standard
+
+ASME American Society of Mechanical Engineers
+
+ASQ American Society for Quality
+
+CAIB Columbia Accident Investigation Board
+
+CCB Configuration Control Board
+
+CDR Critical Design Review
+
+CE Concurrent Engineering or Chief Engineer
+
+CEQ Council on Environmental Quality
+
+CERR Critical Event Readiness Review
+
+CHSIP Commercial Human Systems Integration Processes
+
+CI Configuration Item
+
+CM Configuration Management
+
+CMO Configuration Management Organization
+
+ConOps Concept of Operations COSPAR Committee on Space Research
+
+COTS Commercial Off The Shelf
+
+CPI Critical Program Information
+
+CR Change Request
+
+CRM Continuous Risk Management
+
+CSA Configuration Status Accounting
+
+D&C Design and Construction
+
+DDT&E Design, Development, Test, and Evaluation
+
+DM Data Management
+
+DOD  ( U.S. )  Department of Defense
+
+DODAF DOD Architecture Framework
+
+DAF DOD Architecture Framework
+
+DR Decommissioning Review
+
+DRM Design Reference Mission
+
+DRR Disposal Readiness Review
+
+EDL Entry, Descent, and Landing
+
+EFFBD Enhanced Functional Flow Block Diagram
+
+EIA Electronic Industries Alliance
+
+EMC Electromagnetic Compatibility
+
+EMI Electromagnetic Interference
+
+EO  ( U.S. )  Executive Order
+
+EOM End of Mission
+
+EVM Earned Value Management
+
+FA Formulation Agreement
+
+FAD Formulation Authorization Document
+
+FAR Federal Acquisition Regulation
+
+FCA Functional Configuration Audit
+
+FFBD Functional Flow Block Diagram
+
+FIPS Federal Information Processing Standard
+
+FM Fault Management
+
+FMEA Failure Modes and Effects Analysis
+
+FMR Financial Management Requirements
+
+FRR Flight Readiness Review
+
+FTE Full Time Equivalent
+
+GEO Geostationary
+
+GOTS Government Off The Shelf
+
+GSE Government Supplied Equipment or Ground Support Equipment
+
+GSFC Goddard Space Flight Center
+
+HCD Human Centered Design
+
+HF Human Factors
+
+HITL Human In The Loop
+
+HQ Headquarters
+
+HSI Human Systems Integration
+
+HSIP Human System Integration Plan
+
+HWIL HardWare In the Loop
+
+I&T Integration and Test
+
+ICD Interface Control Document / Drawing
+
+ICP Interface Control Plan
+
+IDD Interface Definition Document
+
+
+IDEF0 Integration Definition  ( for functional modeling ) 
+
+IEEE Institute of Electrical and Electronics Engineers
+
+ILS Integrated Logistics Support
+
+INCOSE International Council on Systems Engineering
+
+IPT Integrated Product Team
+
+IRD Interface Requirements Document
+
+ISO International Organization for Standardization
+
+IT Information Technology
+
+ITA Internal Task Agreement
+
+ITAR International Traffic in Arms Regulation
+
+IV&V Independent Verification and Validation
+
+IVHM Integrated Vehicle Health Management
+
+IWG Interface Working Group
+
+JCL Joint  ( cost and schedule )  Confidence Level
+
+JPL Jet Propulsion Laboratory
+
+KBSI Knowledge Based Systems, Inc.
+
+KDP Key Decision Point
+
+KDR Key Driving Requirement
+
+KPP Key Performance Parameter
+
+KSC Kennedy Space Center
+
+LCC Life Cycle Cost
+
+LEO Low Earth Orbit or Low Earth Orbiting
+
+M&S Modeling and Simulation or Models and Simulations
+
+MBSE Model Based Systems Engineering
+
+MCR Mission Concept Review
+
+MDAA Mission Directorate Associate Administrator
+
+MDR Mission Definition Review
+
+MEL Master Equipment List
+
+MODAF  ( U.K. )  Ministry of Defense Architecture Framework
+
+MOE Measure of Effectiveness
+
+MOP Measure of Performance
+
+MOTS Modified Off The Shelf
+
+MOU Memorandum of Understanding
+
+MRB Material Review Board
+
+MRR Mission Readiness Review
+
+MSFC Marshall Space Flight Center
+
+NASA  ( U.S. )  National Aeronautics and Space Administration
+
+NEN NASA Engineering Network
+
+NEPA National Environmental Policy Act
+
+NFS NASA FAR Supplement
+
+
+NGO Needs, Goals, and Objectives
+
+NIAT NASA Integrated Action Team
+
+NID NASA Interim Directive
+
+NOA New Obligation Authority
+
+NOAA  ( U.S. )  National Oceanic and Atmospheric Administration
+
+NODIS NASA Online Directives Information System
+
+NPD NASA Policy Directive
+
+NPR NASA Procedural Requirements
+
+NRC  ( U.S. )  Nuclear Regulatory Commission
+
+NSTS National Space Transportation System
+
+OCE  ( NASA )  Office of the Chief Engineer
+
+OCIO  ( NASA )  Office of the Chief Information Officer
+
+OCL Object Constraint Language
+
+OMB  ( U.S. )  Office of Management and Budget
+
+ORR Operational Readiness Review
+
+OTS Off the Shelf
+
+OWL Web Ontology Language
+
+PBS Product Breakdown Structure
+
+PCA Physical Configuration Audit or Program Commitment Agreement
+
+PD / NSC  ( U.S. )  Presidential Directive / National Security Council
+
+PDR Preliminary Design Review
+
+PFAR Post Flight Assessment Review
+
+PI Performance Index or Principal Investigator
+
+PIR Program Implementation Review
+
+PKI Public Key Infrastructure
+
+PLAR Post Launch Assessment Review
+
+PM Program Manager or Project Manager
+
+PMC Program Management Council
+
+PPD  ( U.S. )  Presidential Policy Directive
+
+PRA Probabilistic Risk Assessment
+
+PRD Project Requirements Document
+
+PRR Production Readiness Review
+
+QA Quality Assurance
+
+QVT Query View Transformations
+
+R&M Reliability and Maintainability
+
+R&T Research and Technology
+
+RACI Responsible, Accountable, Consulted, Informed
+
+REC Record of Environmental Consideration
+
+RF Radio Frequency
+
+
+RFA Requests for Action
+
+RFP Request for Proposal
+
+RID Review Item Discrepancy or Review Item Disposition
+
+RIDM Risk Informed Decision Making
+
+RM Risk Management
+
+RMA Rapid Mission Architecture
+
+RUL Remaining Useful Life
+
+SAR System Acceptance Review or Safety Analysis Report  ( DOE ) 
+
+SBU Sensitive But Unclassified
+
+SDR Program / System Definition Review
+
+SE Systems Engineering
+
+SECoP Systems Engineering Community of Practice
+
+SEMP Systems Engineering Management Plan
+
+SI International System of Units  ( French: Système international d’unités ) 
+
+SIR System Integration Review
+
+SMA Safety and Mission Assurance
+
+SME Subject Matter Expert
+
+SOW Statement Of Work
+
+SP Special Publication
+
+SRD System Requirements Document
+
+
+SRR Program / System Requirements Review
+
+SRS Software Requirements Specification
+
+STI Scientific and Technical Information
+
+STS Space Transportation System
+
+SysML System Modeling Language
+
+T&E Test and Evaluation
+
+TA Technical Authority
+
+TBD To Be Determined
+
+TBR To Be Resolved
+
+ToR Terms of Reference
+
+TPM Technical Performance Measure
+
+TRL Technology Readiness Level
+
+TRR Test Readiness Review
+
+TVC Thrust Vector Controller
+
+UFE Unallocated Future Expenses
+
+UML Unified Modeling Language
+
+V&V Verification and Validation
+
+WBS Work Breakdown Structure
+
+WYE Work Year Equivalent
+
+XMI XML Metadata Interchange
+
+XML Extensible Markup Language
+
+AIAA American Institute of Aeronautics and Astronautics
+ANSI American National Standards Institute
+ASME American Society of Mechanical Engineers
+ASQ American Society for Quality
+CCSDS Consultative Committee for Space Data Systems
+CFR (U.S.) Code of Federal Regulations COSPAR The Committee on Space Research DOD (U.S.) Department of Defense
+EIA Electronic Industries Alliance
+GEIA Government Electronics Information Technology Association
+IEEE Institute of Electrical and Electronics Engineers
+INCOSE International Council on Systems Engineering
+ISO International Organization for Standardization
+NIST National Institute of Standards and Technology
+SAE Society of Automotive Engineers TOR Technical Operating Report U.S.C. United States Code
+AADL Architecture Analysis & Design Language
+AECA Arms Export Control Act
+COTS Commercial Off the Shelf
+NDIA National Defense Industrial Association
+NEPA National Environmental Policy Act
+ITAR International Traffic in Arms Regulations
+AECA Arms Export Control Act
+FAR Federal Acquisition Regulation
+DODAG DOD. Defense Acquisition Guidebook
+DODAU DOD. Defense Acquisition University
+DAG Defense Acquisition Guidebook
+DAU Defense Acquisition University
+DLA Defense Logistics Agency
+DODAU DOD. Defense Logistics Agency
+DOD Defense Technical Information Center (DTIC). Directory of Design Support Methods (DDSM). 2007. http://www.dtic.mil/dtic/tr/fulltext/ u2/a437106.pdf
+FAR Federal Acquisition Regulation
+NFS NASA FAR Supplement (NFS)
+NF NASA Form
+JPL NASA Jet Propulsion Laboratory
+CHSIP Commercial Human Systems Integration Processes
+HIDP Human Integration Design Processes
+GEVS General Environmental Verification Standard
+R&M Reliability and Maintainability
+SBU Sensitive But Unclassified
+QMS Quality Management Systems
+OOSEM Object-Oriented Systems Engineering Method
+OWL Web Ontology Language
+EIA International/Electronic Industries Alliance
+SEI Software Engineering Institute
+CSB U. S. Chemical Safety Board
+IDA Institute of Defense Analyses

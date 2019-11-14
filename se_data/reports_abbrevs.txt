@@ -1,0 +1,106 @@
+AIAA G-118-2006e: AIAA Guide for Managing the Use of Commercial Off the Shelf (COTS) Software Components for Mission-Critical Systems, Reston, VA, 2006
+AIAA S-120-2006: Mass Properties Control for Space Systems. Reston, VA, 2006
+AIAA S-122-2007: Electrical Power Systems for Unmanned Spacecraft, Reston, VA, 2007
+ANSI/AIAA G-043-1992: Guide for the Preparation of Operational Concept Documents, Washington, DC, 1992
+ANSI/EIA-632: Processes for Engineering a System, Arlington, VA, 1999
+ANSI/EIA-649: National Consensus Standard for Configuration Management, 1998-1999
+ANSI/GEIA-649: National Consensus Standard for Configuration Management, National Defense Industrial Association (NDIA), Arlington, VA 1998
+ANSI/EIA-748-C: Standard: Earned Value Management Systems, March, 2013
+ANSI/GEIA GEIA-859: Data Management, National Defense Industrial Association (NDIA), Arlington, VA 2004
+ANSI/IEEE STD 1042: IEEE Guide to Software Configuration Management. Washington, DC, 1987
+ASME Y14.24: Types and Applications of Engineering Drawings, New York, 1999
+ASME Y14.100: Engineering Drawing Practices, New York, 2004
+CCSDS 311.0-M-1: Reference Architecture for Space Data Systems, Recommended Practice (Magenta), Sept 2008. http://public.ccsds.org/ publications/MagentaBooks.aspx
+CCSDS 901-0-G-1: Space Communications Cross Support Architecture Description Document, Informational Report (Green) Sept 2013. http:// public.ccsds.org/publications/GreenBooks.aspx
+14 CFR 1214: CFR, Title 14 – Aeronautics and Space, Part 1214 NASA Space Flight
+14 CFR 1216.3: CFR, Title 14 – Aeronautics and Space, Part 1216.3 NASA Environmental Quality: Procedures for Implementing the National Environmental Policy Act (NEPA)
+22 CFR 120-130: CFR Title 22 – Foreign Relations, Parts 120-130 Department of State: International Traffic in Arms Regulations (ITAR) (22 CFR 120-130). Implements 22 U.S.C. 2778 of the Arms Export Control Act (AECA) of 1976 and Executive Order 13637, “Administration of Reformed Export Controls,” March 8, 2013
+37 CFR 5.2: CFR Title 37 – Patents, Trademarks, and Copyrights; Part 5 Secrecy of Certain Inventions and Licenses to Export and File Applications in Foreign Countries; Part 5.2 Secrecy Order.
+40 CFR 1508.27: CFR Title 40 – Protection of Environment, Part 1508.27 Council on Environmental Quality: Terminology “significantly.” (40 CFR 1508.27)
+48 CFR 1214: CFR Title 48 – Federal Acquisition Regulation (FAR) System, Part 1214 NASA Acquisition Planning: Acquisition of Commercial Items: Space Flight. (48 CFR 1214)
+48 CFR 46.103: CFR Title 48 – Federal Acquisition Regulation (FAR) System, Part 46.103 Government Contract Quality Assurance: Contracting office responsibilities. (48 CFR 46.103)
+48 CFR 46.4: CFR Title 48 – Federal Acquisition Regulation (FAR) System, Part 46.4 Government Contract Quality Assurance (48 CFR 46.4)
+48 CFR 46.407: CFR Title 48 – Federal Acquisition Regulation (FAR) System, Part 46.407 Government Contract Quality Assurance: Nonconforming Supplies or Services (48 CFR 46.407)
+DOD. MIL-STD-881C:  Work Breakdown Structure (WBS) for Defense Materiel Items. Washington, DC, October 3, 2011
+DOD. MIL-STD-1472G: DOD Design Criteria Standard: Human Engineering. Washington, DC, January 11, 2012
+DOD. MIL-STD-1540D: Product Verification Requirements for Launch, Upper Stage, and Space Vehicles. January 15, 1999
+DOD. MIL-STD-46855A: Human Engineering Requirements for Military Systems, Equipment, and Facilities. May 24, 2011. Replacement for DOD HDBK 763 and DOD MIL-HDBK- 46855A, which have been cancelled.
+IEEE STD 610.12-1990: IEEE Standard Glossary of Software Engineering Terminology. 1999, superceded by ISO/IEC/IEEE 24765:2010, Systems and Software Engineering – Vocabulary. Washington, DC, 2010
+IEEE STD 828: IEEE Standard for Software Configuration Management Plans. Washington, DC, 1998
+IEEE STD 1076-2008: IEEE Standard VHDL Language Reference Manual, 03 February 2009
+IEEE STD 1220-2005: IEEE Standard for Application and Management of the Systems Engineering Process, Washington, DC, 2005
+IEEE Standard12207.1: EIA Guide for Information Technology Software Life Cycle Processes—Life Cycle Data, Washington, DC, 1997
+INCOSE-TP-2003-002-04: Systems Engineering Handbook: A Guide for System Life Cycle Processes and Activities, Version 4, Edited by Walden, David D., et al., 2015
+INCOSE-TP-2003-020-01: Technical Measurement, Version 1.0, 27 December 2005. Prepared by Garry J. Roedler (Lockheed Martin) and Cheryl Jones (U.S. Army).
+INCOSE-TP-2004-004-02: Systems Engineering Vision 2020, Version 2.03, September 2007, http://www.incose.org/ProductsPubs/pdf/ SEVision2020_20071003_v2_03.pdf
+INCOSE-TP-2005-001-03: Systems Engineering Leading Indicators Guide, Version 2.0, January 29, 2010; available at http://seari.mit.edu/docu- ments/SELI-Guide-Rev2.pdf. Edited by Garry J. Roedler and Howard Schimmoller (Lockheed Martin), Cheryl Jones (U.S. Army), and Donna H. Rhodes (Massachusetts Institute of Technology)
+ISO 9000:2015: Quality management systems – Fundamentals and vocabulary. Geneva: International Organization for Standardization, 2015
+ISO 9001:2015: Quality Management Systems (QMS). Geneva: International Organization for Standardization, September 2015
+ISO 9100/AS9100: Quality Systems Aerospace— Model for Quality Assurance in Design, Development, Production, Installation, and Servicing. Geneva: International Organization for Standardization, 1999
+ISO 10007: 1995(E). Quality Management— Guidelines for Configuration Management, Geneva: International Organization for Standardization, 1995
+ISO 10303-AP233: Application Protocol (AP) for Systems Engineering Data Exchange (AP-233) Working Draft 2 published July 2006
+ISO/TS 10303-433: 2011 Industrial automation systems and integration – Product data representa- tion and exchange – Part 433: Application mod- ule: AP233 systems engineering. ISO: Geneva, 2011
+ISO/IEC 10746-1 to 10746-4: ITU-T Specifications X.901 to x.904, Reference Model of Open distributed Processing (RM-ODP), Geneva: International Organization for Standardization, 1998. http://www.rm-odp.net
+ISO 13374-1: Condition monitoring and diagnostics of machines—Data processing, communication and presentation – Part 1: General guidelines. Geneva: International Organization for Standardization, 2002
+ISO/IEC 15288:2002: Systems Engineering—System Life Cycle Processes. Geneva: International Organization for Standardization, 2002
+ISO/TR 15846: Information Technology—Software Life Cycle Processes Configuration Management, Geneva: International Organization for Standardization, 1998
+ISO/IEC TR 19760:2003: Systems Engineering—A Guide for the Application of ISO/IEC 15288. Geneva: International Organization for Standardization, 2003
+ISO/IEC/IEEE 42010:2011: Systems and Software Engineering—Architecture Description. Geneva: International Organization for Standardization, 2011 http://www.iso-architec- ture.org/ieee-1471/index.html
+NASA JPL D-71990: Europa Study 2012 Full Report. May 1 2012, publicly available here: http:// solarsystem.nasa.gov/europa/2012study.cfm
+NASA PD-EC-1243: Preferred Reliability Practices for Fault Protection, October 1995
+NASA-CR-192656: Contractor Report: Research and technology goals and objectives for Integrated Vehicle Health Management (IVHM). October 10, 1992
+JPL- D-17868 (REV.1): JPL Guideline: Design, Verification/Validation and Operations Principles for Flight Systems. February 16, 2001
+JSC- 65995: NASA Lyndon B. Johnson Space Center (JSC- 65995), Commercial Human Systems Integration Processes (CHSIP), May 2011
+NASA/TP-2014-218556: Technical Publication: Human Integration Design Processes (HIDP). NASA ISS Program, Lyndon B. Johnson Space Center, Houston TX, September 2014. http:// ston.jsc.nasa.gov/collections/TRS/_techrep/ TP-2014-218556.pdf
+NASA-STD-3001: Space Flight Human System Standard. Volume 1: Crew Health. Rev. A, July 30, 2014
+NASA-STD-3001: Space Flight Human System Standard. Volume 2: Human Factors, Habitability, and Environmental Health. Rev. A, February 10, 2015
+NASA GSFC-STD-7000: Goddard Technical Standard: General Environmental Verification Standard (GEVS) for GSFC Flight Programs and Projects. Goddard Space Flight Center, April 2005
+NASA KSC-NE-9439: Kennedy Space Center Design Engineering Handbook, Best Practices for Design and Development of Ground Systems. Kennedy Space Center, November 20 2009
+NASA-STD-7009: Standard for Models and Simulations. Washington, DC, October 18, 2013
+NASA-STD-8719.13: Software Safety Standard, Rev C. Washington, DC, May 7, 2013
+NASA-STD-8719.14: Handbook for Limiting Orbital Debris. Rev A with Change 1. December 8, 2011
+NASA-STD-8729.1: Planning, Developing, and Maintaining an Effective Reliability and Maintainability (R&M) Program. Washington, DC, December 1, 1998
+NPD 1001.0: 2014 NASA Strategic Plan
+NID 1600.55: Sensitive But Unclassified (SBU) Controlled Information
+
+NPD 2820.1, NASA Software Policy
+NPD 7120.4, NASA Engineering and Program/ Project Management Policy
+NPD 7120.6, Knowledge Policy on Programs and Projects
+NPD 8010.2, Use of the SI (Metric) System of Measurement in NASA Programs
+NPD 8010.3, Notification of Intent to Decommission or Terminate Operating Space Systems and Terminate Missions
+NPD 8020.7, Biological Contamination Control for Outbound and Inbound Planetary Spacecraft
+NPD 8730.5, NASA Quality Assurance Program Policy
+NPR 1080.1, Requirements for the Conduct of NASA Research and Technology (R&T)
+NPR 1441.1, NASA Records Retention Schedules
+NPR 1600.1, NASA Security Program Procedural Requirements
+NPR 2210.1, Release of NASA Software
+NPR 2810.1, Security of Information Technology
+LPR 5000.2, Procurement Initiator’s Guide. NASA Langley Research Center (LARC)
+JPR 7120.3, Project Management: Systems Engineering & Project Control Processes and Requirements. NASA Lyndon B. Johnson Space Center (JSC)
+NPR 7120.5, NASA Space Flight Program and Project Management Processes and Requirements
+NPR 7120.7, NASA Information Technology and Institutional Infrastructure Program and Project Management Requirements
+NPR 7120.8, NASA Research and Technology Program and Project Management Requirements
+NPR 7120.10, Technical Standards for NASA Programs and Projects
+NPR 7120.11, NASA Health and Medical Technical Authority (HMTA) Implementation
+NPR 7123.1, Systems Engineering Processes and Requirements
+NPR 7150.2, NASA Software Engineering Requirements
+NPR 8000.4, Risk Management Procedural Requirements
+NPI 8020.7, NASA Policy on Planetary Protection Requirements for Human Extraterrestrial Missions
+NPR 8020.12, Planetary Protection Provisions for Robotic Extraterrestrial Missions
+APR 8070.2, EMI/EMC Class D Design and Environmental Test Requirements. NASA Ames Research Center (ARC)
+NPR 8580.1, Implementing the National Environmental Policy Act and Executive Order 12114
+
+NPR 8705.2, Human-Rating Requirements for Space Systems
+NPR 8705.3, Probabilistic Risk Assessment Procedures Guide for NASA Managers and Practitioners
+NPR 8705.4, Risk Classification for NASA Payloads
+NPR 8705.5, Probabilistic Risk Assessment (PRA) Procedures for NASA Programs and Projects
+NPR 8705.6, Safety and Mission Assurance (SMA) Audits, Reviews, and Assessments
+NPR 8710.1, Emergency Preparedness Program
+NPR 8715.2, NASA Emergency Preparedness Plan Procedural Requirements
+NPR 8715.3, NASA General Safety Program Requirements
+NPR 8715.6, NASA Procedural Requirements for Limiting Orbital Debris
+NPR 8735.2, Management of Government Quality Assurance Functions for NASA Contracts
+NPR 8900.1, NASA Health and Medical Requirements for Human Space Exploration
+Work Instructions
+MSFC NASA MWI 8060.1, Off-the-Shelf Hard- ware Utilization in Flight Hardware Develop- ment. NASA Marshall Space Flight Center.
+JSC Work Instruction EA-WI-016, Off-the-Shelf Hardware Utilization in Flight Hardware Development. NASA Lyndon B. Johnson Space Center.
