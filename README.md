@@ -5,10 +5,12 @@ This repo is a combination of two projects:
 *   **[`SEVA: A Systems Engineer's Virtual Assistant`](http://ceur-ws.org/Vol-2350/paper3.pdf)** (AAAI-MAKE 2019)
 *   `Common-Knowledge Concept Recognition for SEVA` (In progress)
 
+Datasets used in the project are availale in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data). 
+
 ### 1. SEVA-TOIE
 SEVA-TOIE is a targetted open domain information extractor for simple systems engineering sentences which is based on domain specific rules constructed over universal dependencies.
 
-#### How to run
+#### How to run:
 ```
 cd NASA-SE
 python -i seva_toie.py
@@ -16,7 +18,7 @@ python -i seva_toie.py
 >>> toie(sentence)
 >>> [('STI', 'is', 'instrument)]
 ```
-Some examples sentences can be found in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/seva-toie-sentences.txt)
+Some example sentences can be found [here](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/seva-toie-sentences.txt)
 
 ### 2. Concept Recognition (CR)
 
@@ -24,7 +26,7 @@ Some examples sentences can be found in the [datafolder](https://github.com/jiti
 
 #### Running the model on an input sentence
 
-#### Constructing the Knowledge Graph
+#### Constructing a Knowledge Graph
 
 ### Citation
 ```
