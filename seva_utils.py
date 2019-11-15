@@ -1,8 +1,12 @@
 import nltk, re
 import nltk
 from nltk.corpus import stopwords
-set(stopwords.words('english'))
 
+# create a dictionary
+# input: accronym file
+# output: dictionary
+# key: acronym
+# value: full form
 def create_acronym_dict(fname):
     d = {}
     f = open(fname)
@@ -15,6 +19,11 @@ def create_acronym_dict(fname):
         d[splits[0]] = " ".join(splits[1:])
     return d
 
+# create a dictionary
+# input: definition file
+# output: dictionary
+# key: definition
+# value: description
 def create_definition_dict(fname):
     d = {}
     f = open(fname)
@@ -25,6 +34,11 @@ def create_definition_dict(fname):
         d[splits[0]] = " ".join(splits[1:])
     return d
 
+# dealing with definitions with '/' and accronyms
+# Automated/Automation
+# Configuration Items (CI)
+# input: phrase/definition
+# output: list of definitions extracted from the input
 def get_def_combos(term, accro_dict):
     in_brackets  = re.findall(r"\([^\(\)]*\)",term)
     term = re.sub(r"\([^\(\)]*\)", " ", term)
@@ -37,6 +51,11 @@ def get_def_combos(term, accro_dict):
     combo = terms_plus + in_brackets
     return combo
     
+# Fixing the first sentence of the explanation to create a coherent sentence
+# input: accronym file, definition file
+# output: dictionary
+# key: definition
+# value: full form
 def fix_def(accr_fname, fname):
     accro_dict = create_acronym_dict(accr_fname)
     f = open(fname)
@@ -53,14 +72,14 @@ def fix_def(accr_fname, fname):
         explanation = splits[1:]
         explanation = explanation[0]
         combos = get_def_combos(definition, accro_dict)
-        print(definition)
-        print(combos)
-        new_def = " | ".join(combos) + " :: "
+        new_def = " | ".join(combos)
         Flag = False
         for c in combos:
             if c.lower() in explanation.lower():
                 Flag = True
         if Flag:
+            if len(sent) > 1:
+                explanation += " ".join(sent[1:])
             definition_dict[new_def.strip()] = explanation.strip()
         else:
             if explanation.split()[0].lower() in stopwords.words('english'):
@@ -70,26 +89,33 @@ def fix_def(accr_fname, fname):
                 explanation = explanation.split()
                 explanation[0] = explanation[0].lower()
             exp = definition + " is " + " ".join(explanation).strip()
+            if len(sent) > 1:
+                exp += " ".join(sent[1:])
             definition_dict[new_def.strip()] = exp
     return definition_dict
 
+# put definitions in to buckets corresponding to number of words in them
+# input: accronym filename, definition filename
+# output: dictionary
+# key: integer 'n' - number of words
+# value: definitions that has 'n' number of words
 def categorize_def_into_numwords(accr_location, definition_location):
     d = fix_def(accr_location, definition_location)
     res = {}
     for key in d.keys():
-        splits = line.split("|")
+        splits = key.split("|")
         for s in splits:
             s = s.strip()
             if s == "":
                 continue
             if not s.isupper():
                 if res.get(len(s.split()), None) is None:
-                    res[len(s.split())] = {}
-                res[len(s.split())].add(s.split())
+                    res[len(s.split())] = set()
+                res[len(s.split())].add(s)
     return res
 
 
-##### USAGE 
+######## USAGE EXAMPLE ########
 #accr_location = "se_data/acronyms.txt"
 #definition_location = "se_data/definitions.txt"
 #d = fix_def(accr_location, definition_location)
