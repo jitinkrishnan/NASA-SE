@@ -6,16 +6,17 @@ This repo is a combination of two projects:
 *   `Common-Knowledge Concept Recognition for SEVA` (In progress)
 
 ### 1. SEVA-TOIE
-SEVA-TOIE is a targetted open domain information extractor for simple systems engineering sentences.
+SEVA-TOIE is a targetted open domain information extractor for simple systems engineering sentences which is based on domain specific rules constructed over universal dependencies.
+
 #### How to run
 ```
 cd NASA-SE
-python seva_toie.py
+python -i seva_toie.py
 >>> sentence = "STI is an instrument."
 >>> toie(sentence)
 >>> [('STI', 'is', 'instrument)]
 ```
-Some examples sentences can found in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/seva-toie-sentences.txt)
+Some examples sentences can be found in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/seva-toie-sentences.txt)
 
 ### 2. Concept Recognition (CR)
 
