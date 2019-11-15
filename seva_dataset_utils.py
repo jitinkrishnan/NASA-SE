@@ -16,7 +16,24 @@ def create_acronym_dict(fname):
         splits = line.strip().split()
         if len(splits) < 2:
             continue
-        d[splits[0]] = " ".join(splits[1:])
+        d[splits[0].strip()] = " ".join(splits[1:]).strip()
+    return d
+
+# create a dictionary
+# input: accronym file
+# output: dictionary
+# key: full form
+# value: accronym
+def create_acronym_dict_inverse(fname):
+    d = {}
+    f = open(fname)
+    lines = f.readlines()
+    f.close()
+    for line in lines:
+        splits = line.strip().split()
+        if len(splits) < 2:
+            continue
+        d[" ".join(splits[1:]).strip().lower()] = splits[0].strip()
     return d
 
 # create a dictionary
@@ -100,6 +117,7 @@ def fix_def(accr_fname, fname):
 # key: integer 'n' - number of words
 # value: definitions that has 'n' number of words
 def categorize_def_into_numwords(accr_location, definition_location):
+    accro_dict = create_acronym_dict(accr_location)
     d = fix_def(accr_location, definition_location)
     res = {}
     for key in d.keys():
@@ -108,16 +126,81 @@ def categorize_def_into_numwords(accr_location, definition_location):
             s = s.strip()
             if s == "":
                 continue
-            if not s.isupper():
+            if not s.isupper() and s not in accro_dict.keys():
                 if res.get(len(s.split()), None) is None:
                     res[len(s.split())] = set()
                 res[len(s.split())].add(s)
     return res
 
+# write all keywords from buckets to a file
+# input: accronym filename, definition filename, output filename
+# output: a new file
+def create_file_from_buckets_4_human_labelling(accr_location, definition_location, fname):
+    res = categorize_def_into_numwords(accr_location, definition_location)
+    f = open(fname, 'w+')
+    keys = sorted(res.keys())
+    for key in keys:
+        f.write(str(key)+'\n')
+        for item in res[key]:
+            f.write(item+", \n")
+    f.close()
+
+# read annotated keywords as dictionary
+# input: filename
+# ouput: dictionary
+# key: tag
+# value: terms
+def read_annotated_keywords(fname):
+    tag_dict = {}
+    f = open(fname)
+    lines = f.readlines()
+    f.close()
+    for line in lines:
+        if len(line.split()) > 1:
+            tag = line.split(",")[-1].strip()
+            term = " ".join(line.split(",")[:-1]).strip()
+            if tag_dict.get(tag, None) is None:
+                tag_dict[tag] = set()
+            tag_dict[tag].add(term.strip())
+
+    '''
+    accro_dict = create_acronym_dict_inverse(accr_location)
+    for key,val in tag_dict.items():
+        new_item_set = set()
+        for item in val:
+            splits = item.split()
+            for index in range(len(splits)):
+                if accro_dict.get(splits[index].strip().lower(), None) is not None:
+                    splits[index] = accro_dict.get(splits[index].strip().lower())
+            new_item = " ".join(splits)
+            new_item_set.add(new_item)
+        tag_dict[key] = tag_dict[key].union(new_item_set)
+    '''
+    return tag_dict
+
+# read annotated keywords as dictionary
+# input: filename
+# ouput: dictionary
+# key: term
+# value: tag
+def read_annotated_keywords_inverse(fname):
+    tag_dict = {}
+    f = open(fname)
+    lines = f.readlines()
+    f.close()
+    for line in lines:
+        if len(line.split()) > 1:
+            tag = line.split(",")[-1].strip()
+            term = " ".join(line.split(",")[:-1]).strip()
+            tag_dict[term.strip().lower()] = tag
+    return tag_dict
+
 
 ######## USAGE EXAMPLE ########
-#accr_location = "se_data/acronyms.txt"
-#definition_location = "se_data/definitions.txt"
-#d = fix_def(accr_location, definition_location)
-#res = categorize_def_into_numwords(accr_location, definition_location)
-
+# accr_location = "se_data/acronyms.txt"
+# definition_location = "se_data/definitions.txt"
+# d = fix_def(accr_location, definition_location)
+# res = categorize_def_into_numwords(accr_location, definition_location)
+# create_file_from_buckets_4_human_labelling(accr_location, definition_location, "se_data/keywords2annotate.txt")
+# d = read_annotated_keywords( accr_location, "se_data/keywords2annotate.txt") #text file should be annotated
+# d = read_annotated_keywords_inverse("se_data/keywords2annotate.txt")
