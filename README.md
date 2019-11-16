@@ -17,6 +17,9 @@ python -i seva_toie.py
 >>> sentence = "STI is an instrument."
 >>> toie(sentence)
 >>> [('STI', 'is', 'instrument)]
+>>> sentence = "STI, an instrument, has a 2500 pixel CCD detector."
+>>> toie(sentence)
+>>> [('STI', 'has', 'CCD detector'), ('STI', 'is-a', 'instrument'), ('CCD detector', 'has-property', '2500 pixel')]
 ```
 Some example sentences can be found [here](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/seva-toie-sentences.txt)
 
