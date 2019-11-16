@@ -1,5 +1,6 @@
 ## NASA-SE
-A Virtual Assistant for NASA's Systems Engineers
+
+### A Virtual Assistant for NASA's Systems Engineers
 
 This repo is a combination of two projects:
 *   **[`SEVA: A Systems Engineer's Virtual Assistant`](http://ceur-ws.org/Vol-2350/paper3.pdf)** (AAAI-MAKE 2019)
