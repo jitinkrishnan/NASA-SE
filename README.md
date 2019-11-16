@@ -39,7 +39,7 @@ Try with more example/template [sentences](https://github.com/jitinkrishnan/NASA
 ### Citation
 ```
 @inproceedings{krishnan2019seva,
-  title={SEVA: A Systems Engineer's Virtual Assistant.},
+  title={SEVA: A Systems Engineer's Virtual Assistant},
   author={Krishnan, Jitin and Coronado, Patrick and Reed, Trevor},
   booktitle={AAAI Spring Symposium: Combining Machine Learning with Knowledge Engineering},
   year={2019}
