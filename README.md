@@ -11,6 +11,11 @@ Datasets used in the project are availale in the [datafolder](https://github.com
 SEVA-TOIE is a targetted open domain information extractor for simple systems engineering sentences which is based on domain specific rules constructed over universal dependencies. It extracts fine-grained triples from sentences and can be used for downstream tasks such as knowledge graph construction and question-asnwering.
 
 #### How to run:
+
+Download the project.
+
+```pip install -r requirements.txt``` (if needed) to install necessary packages.
+
 ```
 cd NASA-SE
 python -i seva_toie.py
