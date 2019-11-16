@@ -12,8 +12,6 @@ SEVA-TOIE is a targetted open domain information extractor for simple systems en
 
 #### How to run:
 
-Download the project.
-
 ```pip install -r requirements.txt``` to install necessary packages (if needed).
 
 ```
