@@ -32,6 +32,10 @@ Try with more example/template [sentences](https://github.com/jitinkrishnan/NASA
 
 #### Training and Evaluating a custom CR model
 
+##### Update Vocabulary
+
+##### Train and Evaluate
+
 #### Running the model on an input sentence
 
 #### Construct a Knowledge Graph
