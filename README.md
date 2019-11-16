@@ -2,7 +2,7 @@
 
 ### A Virtual Assistant for NASA's Systems Engineers
 
-Projects:
+Projects in this repo:
 *   **[`SEVA: A Systems Engineer's Virtual Assistant`](http://ceur-ws.org/Vol-2350/paper3.pdf)** (AAAI-MAKE 2019)
 *   `Common Knowledge Concept Recognition for SEVA` (In progress)
 
