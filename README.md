@@ -34,7 +34,9 @@ Try with more example/template [sentences](https://github.com/jitinkrishnan/NASA
 
 #### Running the model on an input sentence
 
-#### Constructing a Knowledge Graph
+#### Construct a Knowledge Graph
+
+#### Verb Phrase Chunking
 
 ### Citation
 ```
