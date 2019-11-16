@@ -26,7 +26,7 @@ python -i seva_toie.py
 >>> toie(sentence)
 >>> [('STI', 'has', 'CCD detector'), ('STI', 'is-a', 'instrument'), ('CCD detector', 'has-property', '2500 pixel')]
 ```
-Try with more example/template sentences which can be found [here](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/seva-toie-sentences.txt).
+Try with more example/template [sentences](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/seva-toie-sentences.txt).
 
 ### 2. Concept Recognition (CR)
 
