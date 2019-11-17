@@ -1,4 +1,5 @@
 ## NASA-SE
+=============================
 
 ### A Virtual Assistant for NASA's Systems Engineers (In Progess... Check back later)
 
@@ -9,6 +10,7 @@ Projects in this repo:
 Datasets used in the project are availale in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data). 
 
 ### Concept Recognition (CR)
+=============================
 
 #### 1. If you just want to extract concepts right away
 
@@ -60,7 +62,7 @@ python -i tag_sentence.py
 ![pic](https://github.com/jitinkrishnan/NASA-SE/blob/master/images/kg_example.png)
 
 #### 4. Verb Phrase Chunking
-Makes simple verb based connection between two near by entities.
+Makes simple verb based connection between two near-by entities.
 ```
 cd NASA-SE
 python -i tag_sentence.py
@@ -78,8 +80,8 @@ python -i tag_sentence.py
 ([('VP', [('is', 'VBZ'), ('understood', 'JJ')]), ('VP', [('agreed', 'VBD'), ('to', 'TO'), ('by', 'IN')])], ['is understood', 'agreed to by'])
 ```
 
-
 ### SEVA-TOIE
+=============================
 SEVA-TOIE is a targetted open domain information extractor for simple systems engineering sentences which is based on domain specific rules constructed over universal dependencies. It extracts fine-grained triples from sentences and can be used for downstream tasks such as knowledge graph construction and question-asnwering.
 
 #### How to run:
