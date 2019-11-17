@@ -3,12 +3,26 @@
 ### A Virtual Assistant for NASA's Systems Engineers (In Progess... Check back later)
 
 Projects in this repo:
-*   **[`SEVA: A Systems Engineer's Virtual Assistant`](http://ceur-ws.org/Vol-2350/paper3.pdf)** (AAAI-MAKE 2019)
 *   `Common Knowledge Concept Recognition for SEVA` (In progress)
+*   **[`SEVA: A Systems Engineer's Virtual Assistant`](http://ceur-ws.org/Vol-2350/paper3.pdf)** (AAAI-MAKE 2019)
 
 Datasets used in the project are availale in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data). 
 
-### 1. SEVA-TOIE
+### 1. Concept Recognition (CR)
+
+#### Training and Evaluating a custom CR model
+
+##### Update Vocabulary
+
+##### Train and Evaluate
+
+#### Running the model on an input sentence
+
+#### Construct a Knowledge Graph
+
+#### Verb Phrase Chunking
+
+### 2. SEVA-TOIE
 SEVA-TOIE is a targetted open domain information extractor for simple systems engineering sentences which is based on domain specific rules constructed over universal dependencies. It extracts fine-grained triples from sentences and can be used for downstream tasks such as knowledge graph construction and question-asnwering.
 
 #### How to run:
@@ -26,20 +40,6 @@ python -i seva_toie.py
 >>> [('STI', 'has', 'CCD detector'), ('STI', 'is-a', 'instrument'), ('CCD detector', 'has-property', '2500 pixel')]
 ```
 Try with more example/template [sentences](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/seva-toie-sentences.txt).
-
-### 2. Concept Recognition (CR)
-
-#### Training and Evaluating a custom CR model
-
-##### Update Vocabulary
-
-##### Train and Evaluate
-
-#### Running the model on an input sentence
-
-#### Construct a Knowledge Graph
-
-#### Verb Phrase Chunking
 
 ### Citation
 ```
