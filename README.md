@@ -81,7 +81,7 @@ python -i tag_sentence.py
 ```
 
 ### 2. SEVA-TOIE
-=============================
+
 SEVA-TOIE is a targetted open domain information extractor for simple systems engineering sentences which is based on domain specific rules constructed over universal dependencies. It extracts fine-grained triples from sentences and can be used for downstream tasks such as knowledge graph construction and question-asnwering.
 
 #### How to run:
