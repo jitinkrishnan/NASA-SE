@@ -8,9 +8,9 @@ Projects in this repo:
 
 Datasets used in the project are availale in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data). 
 
-### 1. Concept Recognition (CR)
+### Concept Recognition (CR)
 
-#### If you just want to extract concepts right away
+#### 1. If you just want to extract concepts right away
 
 ```
 cd NASA-SE
@@ -20,10 +20,11 @@ python -i tag_sentence.py
 [('Acceptable Risk', 'mea'), ('risk', 'mea'), ('program', 'opcon'), ('project', 'seterm'), ('mission directorate', 'seterm'), ('customer', 'grp')]
 
 ```
-#### Training and Evaluating a custom CR model
+#### 2. Training and Evaluating a custom CR model
 
-##### Necessary Items:
-###### [BERT model](https://github.com/jitinkrishnan/NASA-SE/blob/master/bert_models).
+##### Necessary Items
+
+###### [BERT model](https://github.com/jitinkrishnan/NASA-SE/blob/master/bert_models)
 You can change the BERT vocabulary if needed. There are a few caveats to this. The number of words should remain the same and should include the BERT tokens. BERT recommends replacing the `unused` words with domain words. However, this may not always guarantee a better performance. The example shown below updates the ```vocab.txt``` file with the words from two files: accronyms and definitions.
 ```
 cd NASA-SE
@@ -34,10 +35,10 @@ python -i seva_dataset_utils.py
 update_vocab(vocab_location, accr_location, definition_location)
 ```
 ###### [Datasets](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data)
-[CR annotated dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/se_ner_annotated.tsv), 
-[Accronyms dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/acronyms.txt),
-[Definitions dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/definitions.txt),
-[Keyword annotated dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/keywords2annotate.txt).
+* [CR annotated dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/se_ner_annotated.tsv), 
+* [Accronyms dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/acronyms.txt),
+* [Definitions dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/definitions.txt),
+* [Keyword annotated dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/keywords2annotate.txt).
 
 ###### Train and Evaluate
 It will take a few minutes to generate the model.
@@ -53,11 +54,11 @@ python -i tag_sentence.py
 [('Acceptable Risk', 'mea'), ('risk', 'mea'), ('program', 'opcon'), ('project', 'seterm'), ('mission directorate', 'seterm'), ('customer', 'grp')]
 ```
 
-#### Construct a Knowledge Graph
+#### 3. Construct a Knowledge Graph
 
-#### Verb Phrase Chunking
+#### 4. Verb Phrase Chunking
 
-### 2. SEVA-TOIE
+### SEVA-TOIE
 SEVA-TOIE is a targetted open domain information extractor for simple systems engineering sentences which is based on domain specific rules constructed over universal dependencies. It extracts fine-grained triples from sentences and can be used for downstream tasks such as knowledge graph construction and question-asnwering.
 
 #### How to run:
