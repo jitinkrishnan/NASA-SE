@@ -16,8 +16,8 @@ Datasets used in the project are availale in the [datafolder](https://github.com
 cd NASA-SE
 python -i tag_sentence.py
 >>> sentence = "Acceptable Risk is the risk that is understood and agreed to by the program/project, governing authority, mission directorate, and other customer(s) such that no further specific mitigating action is required."
->>> sentence2tags(sentence)
-[('Acceptable Risk', 'mea'), ('risk', 'mea'), ('program', 'opcon'), ('project', 'seterm'), ('mission directorate', 'seterm'), ('customer', 'grp')]
+>>> sentence2tags_all(sentence)
+[('Acceptable Risk', 'mea'), ('mission', 'seterm'), ('risk', 'mea'), ('program', 'opcon'), ('project', 'seterm'), ('mission directorate', 'seterm'), ('customer', 'grp')]
 ```
 #### 2. Training and Evaluating a custom CR model
 
@@ -47,18 +47,37 @@ python train_evaluate.py
 ```
 Once the training is finished, we can extract the tags.
 ```
+cd NASA-SE
 python -i tag_sentence.py
 >>> sentence = "Acceptable Risk is the risk that is understood and agreed to by the program/project, governing authority, mission directorate, and other customer(s) such that no further specific mitigating action is required."
->>> sentence2tags(sentence)
-[('Acceptable Risk', 'mea'), ('risk', 'mea'), ('program', 'opcon'), ('project', 'seterm'), ('mission directorate', 'seterm'), ('customer', 'grp')]
+>>> sentence2tags_all(sentence)
+[('Acceptable Risk', 'mea'), ('mission', 'seterm'), ('risk', 'mea'), ('program', 'opcon'), ('project', 'seterm'), ('mission directorate', 'seterm'), ('customer', 'grp')]
 ```
 
 #### 3. Construct a Knowledge Graph
-[Here](https://github.com/jitinkrishnan/NASA-SE/blob/master/SEVA_KG_Example.ipynb) is an example of KG construction using accronyms and definitions as a notebook file.
+[Here](https://github.com/jitinkrishnan/NASA-SE/blob/master/SEVA_KG_Example.ipynb) is a jupyter notebbok example of KG construction using accronyms and definitions.
 
 ![pic](https://github.com/jitinkrishnan/NASA-SE/blob/master/images/kg_example.png)
 
 #### 4. Verb Phrase Chunking
+Makes simple verb based connection between two near by entities.
+```
+cd NASA-SE
+python -i tag_sentence.py
+>>> sentence = "Acceptable Risk is the risk that is understood and agreed to by the program/project, governing authority, mission directorate, and other customer(s) such that no further specific mitigating action is required."
+>>> verb_phrase_relations(sentence)
+[('Acceptable Risk [mea]', 'is', 'risk [mea]'), ('risk [mea]', 'is understood', 'program [opcon]'), ('risk [mea]', 'agreed to by', 'program [opcon]')]
+```
+Examples of verb phrase extraction using POS tags.
+```
+cd NASA-SE
+python -i tag_sentence.py
+>>> extract_vp([('is', 'VBZ'), ('the', 'DT')])
+([('VP', [('is', 'VBZ')])], ['is'])
+>>> extract_vp([('that', 'WDT'), ('is', 'VBZ'), ('understood', 'JJ'), ('and', 'CC'), ('agreed', 'VBD'), ('to', 'TO'), ('by', 'IN'), ('the', 'DT')])
+([('VP', [('is', 'VBZ'), ('understood', 'JJ')]), ('VP', [('agreed', 'VBD'), ('to', 'TO'), ('by', 'IN')])], ['is understood', 'agreed to by'])
+```
+
 
 ### SEVA-TOIE
 SEVA-TOIE is a targetted open domain information extractor for simple systems engineering sentences which is based on domain specific rules constructed over universal dependencies. It extracts fine-grained triples from sentences and can be used for downstream tasks such as knowledge graph construction and question-asnwering.
