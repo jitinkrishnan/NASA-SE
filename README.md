@@ -16,7 +16,7 @@ Datasets used in the project are availale in the [datafolder](https://github.com
 
 #### If you just want to extract concepts right away
 
-**Input**: Sentence.
+**Input**: A sentence.
 **Output**: Tuples of concepts and their corresponding BIO labels.
 ```
 cd NASA-SE
