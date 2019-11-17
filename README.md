@@ -17,9 +17,12 @@ Datasets used in the project are availale in the [datafolder](https://github.com
 ```
 cd NASA-SE
 python -i tag_sentence.py
->>> sentence = "Acceptable Risk is the risk that is understood and agreed to by the program/project, governing authority, mission directorate, and other customer(s) such that no further specific mitigating action is required."
+>>> sentence = "Acceptable Risk is the risk that is understood and agreed to by the program/project,
+governing authority, mission directorate, and other customer(s) such that no further specific 
+mitigating action is required."
 >>> sentence2tags_all(sentence)
-[('Acceptable Risk', 'mea'), ('mission', 'seterm'), ('risk', 'mea'), ('program', 'opcon'), ('project', 'seterm'), ('mission directorate', 'seterm'), ('customer', 'grp')]
+[('Acceptable Risk', 'mea'), ('mission', 'seterm'), ('risk', 'mea'), ('program', 'opcon'), 
+('project', 'seterm'), ('mission directorate', 'seterm'), ('customer', 'grp')]
 ```
 #### Training and Evaluating a custom CR model
 
@@ -51,9 +54,12 @@ Once the training is finished, we can extract the tags.
 ```
 cd NASA-SE
 python -i tag_sentence.py
->>> sentence = "Acceptable Risk is the risk that is understood and agreed to by the program/project, governing authority, mission directorate, and other customer(s) such that no further specific mitigating action is required."
+>>> sentence = "Acceptable Risk is the risk that is understood and agreed to by the program/project,
+governing authority, mission directorate, and other customer(s) such that no further specific 
+mitigating action is required."
 >>> sentence2tags_all(sentence)
-[('Acceptable Risk', 'mea'), ('mission', 'seterm'), ('risk', 'mea'), ('program', 'opcon'), ('project', 'seterm'), ('mission directorate', 'seterm'), ('customer', 'grp')]
+[('Acceptable Risk', 'mea'), ('mission', 'seterm'), ('risk', 'mea'), ('program', 'opcon'), 
+('project', 'seterm'), ('mission directorate', 'seterm'), ('customer', 'grp')]
 ```
 
 #### Construct a Knowledge Graph
@@ -66,9 +72,12 @@ Makes simple verb based connection between two near-by entities.
 ```
 cd NASA-SE
 python -i tag_sentence.py
->>> sentence = "Acceptable Risk is the risk that is understood and agreed to by the program/project, governing authority, mission directorate, and other customer(s) such that no further specific mitigating action is required."
+>>> sentence = "Acceptable Risk is the risk that is understood and agreed to by the program/project,
+governing authority, mission directorate, and other customer(s) such that no further specific 
+mitigating action is required."
 >>> verb_phrase_relations(sentence)
-[('Acceptable Risk [mea]', 'is', 'risk [mea]'), ('risk [mea]', 'is understood', 'program [opcon]'), ('risk [mea]', 'agreed to by', 'program [opcon]')]
+[('Acceptable Risk [mea]', 'is', 'risk [mea]'), ('risk [mea]', 'is understood', 'program [opcon]'),
+('risk [mea]', 'agreed to by', 'program [opcon]')]
 ```
 Examples of verb phrase extraction using POS tags.
 ```
@@ -76,8 +85,10 @@ cd NASA-SE
 python -i tag_sentence.py
 >>> extract_vp([('is', 'VBZ'), ('the', 'DT')])
 ([('VP', [('is', 'VBZ')])], ['is'])
->>> extract_vp([('that', 'WDT'), ('is', 'VBZ'), ('understood', 'JJ'), ('and', 'CC'), ('agreed', 'VBD'), ('to', 'TO'), ('by', 'IN'), ('the', 'DT')])
-([('VP', [('is', 'VBZ'), ('understood', 'JJ')]), ('VP', [('agreed', 'VBD'), ('to', 'TO'), ('by', 'IN')])], ['is understood', 'agreed to by'])
+>>> extract_vp([('that', 'WDT'), ('is', 'VBZ'), ('understood', 'JJ'), ('and', 'CC'), ('agreed', 'VBD'),
+('to', 'TO'), ('by', 'IN'), ('the', 'DT')])
+([('VP', [('is', 'VBZ'), ('understood', 'JJ')]), ('VP', [('agreed', 'VBD'), ('to', 'TO'), ('by', 'IN')])],
+['is understood', 'agreed to by'])
 ```
 
 ### 2. SEVA-TOIE
