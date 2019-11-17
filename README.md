@@ -54,7 +54,9 @@ python -i tag_sentence.py
 ```
 
 #### 3. Construct a Knowledge Graph
-KG Example as [Jupyter Notebook](https://github.com/jitinkrishnan/NASA-SE/blob/master/SEVA_KG_Example.ipynb)
+[Here](https://github.com/jitinkrishnan/NASA-SE/blob/master/SEVA_KG_Example.ipynb) is an example of KG construction using accronyms and definitions as a notebook file.
+
+![pic](https://github.com/jitinkrishnan/NASA-SE/blob/master/images/kg_example.png)
 
 #### 4. Verb Phrase Chunking
 
