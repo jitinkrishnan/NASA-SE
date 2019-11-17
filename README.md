@@ -16,8 +16,8 @@ Datasets used in the project are availale in the [datafolder](https://github.com
 
 #### If you just want to extract concepts right away
 
-Input: Sentence.
-Output: A tuple with a concept and its corresponding BIO label.
+**Input**: Sentence.
+**Output**: Tuples of concepts and their corresponding BIO labels.
 ```
 cd NASA-SE
 python -i tag_sentence.py
