@@ -1,18 +1,18 @@
 ## NASA-SE
-=============================
 
-### A Virtual Assistant for NASA's Systems Engineers (In Progess... Check back later)
+
+### A Virtual Assistant for NASA's Systems Engineers
 
 Projects in this repo:
-*   `Common Knowledge Concept Recognition for SEVA` (In progress)
+*   `Common Knowledge Concept Recognition for SEVA` (**Work In Progress**)
 *   **[`SEVA: A Systems Engineer's Virtual Assistant`](http://ceur-ws.org/Vol-2350/paper3.pdf)** (AAAI-MAKE 2019)
 
 Datasets used in the project are availale in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data). 
 
-### Concept Recognition (CR)
-=============================
+### 1. Concept Recognition (CR)
 
-#### 1. If you just want to extract concepts right away
+
+#### If you just want to extract concepts right away
 
 ```
 cd NASA-SE
@@ -21,7 +21,7 @@ python -i tag_sentence.py
 >>> sentence2tags_all(sentence)
 [('Acceptable Risk', 'mea'), ('mission', 'seterm'), ('risk', 'mea'), ('program', 'opcon'), ('project', 'seterm'), ('mission directorate', 'seterm'), ('customer', 'grp')]
 ```
-#### 2. Training and Evaluating a custom CR model
+#### Training and Evaluating a custom CR model
 
 ##### Necessary Items
 
@@ -56,12 +56,12 @@ python -i tag_sentence.py
 [('Acceptable Risk', 'mea'), ('mission', 'seterm'), ('risk', 'mea'), ('program', 'opcon'), ('project', 'seterm'), ('mission directorate', 'seterm'), ('customer', 'grp')]
 ```
 
-#### 3. Construct a Knowledge Graph
+#### Construct a Knowledge Graph
 [Here](https://github.com/jitinkrishnan/NASA-SE/blob/master/SEVA_KG_Example.ipynb) is a jupyter notebbok example of KG construction using accronyms and definitions.
 
 ![pic](https://github.com/jitinkrishnan/NASA-SE/blob/master/images/kg_example.png)
 
-#### 4. Verb Phrase Chunking
+#### Verb Phrase Chunking
 Makes simple verb based connection between two near-by entities.
 ```
 cd NASA-SE
@@ -80,7 +80,7 @@ python -i tag_sentence.py
 ([('VP', [('is', 'VBZ'), ('understood', 'JJ')]), ('VP', [('agreed', 'VBD'), ('to', 'TO'), ('by', 'IN')])], ['is understood', 'agreed to by'])
 ```
 
-### SEVA-TOIE
+### 2. SEVA-TOIE
 =============================
 SEVA-TOIE is a targetted open domain information extractor for simple systems engineering sentences which is based on domain specific rules constructed over universal dependencies. It extracts fine-grained triples from sentences and can be used for downstream tasks such as knowledge graph construction and question-asnwering.
 
