@@ -18,7 +18,6 @@ python -i tag_sentence.py
 >>> sentence = "Acceptable Risk is the risk that is understood and agreed to by the program/project, governing authority, mission directorate, and other customer(s) such that no further specific mitigating action is required."
 >>> sentence2tags(sentence)
 [('Acceptable Risk', 'mea'), ('risk', 'mea'), ('program', 'opcon'), ('project', 'seterm'), ('mission directorate', 'seterm'), ('customer', 'grp')]
-
 ```
 #### 2. Training and Evaluating a custom CR model
 
@@ -35,12 +34,12 @@ python -i seva_dataset_utils.py
 update_vocab(vocab_location, accr_location, definition_location)
 ```
 ###### [Datasets](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data)
-* [CR annotated dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/se_ner_annotated.tsv), 
-* [Accronyms dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/acronyms.txt),
-* [Definitions dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/definitions.txt),
-* [Keyword annotated dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/keywords2annotate.txt).
+* [CR annotated dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/se_ner_annotated.tsv) 
+* [Accronyms dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/acronyms.txt)
+* [Definitions dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/definitions.txt)
+* [Keyword annotated dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/keywords2annotate.txt)
 
-###### Train and Evaluate
+##### Train and Evaluate
 It will take a few minutes to generate the model.
 ```
 cd NASA-SE
@@ -55,6 +54,7 @@ python -i tag_sentence.py
 ```
 
 #### 3. Construct a Knowledge Graph
+KG Example as [Jupyter Notebook](https://github.com/jitinkrishnan/NASA-SE/blob/master/SEVA_KG_Example.ipynb)
 
 #### 4. Verb Phrase Chunking
 
