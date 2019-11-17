@@ -9,6 +9,8 @@ Projects in this repo:
 
 Datasets used in the project are availale in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data). 
 
+```pip install -r requirements.txt``` to install necessary packages (if needed).
+
 ### 1. Concept Recognition (CR)
 
 
@@ -94,10 +96,6 @@ python -i tag_sentence.py
 ### 2. SEVA-TOIE
 
 SEVA-TOIE is a targetted open domain information extractor for simple systems engineering sentences which is based on domain specific rules constructed over universal dependencies. It extracts fine-grained triples from sentences and can be used for downstream tasks such as knowledge graph construction and question-asnwering.
-
-#### How to run:
-
-```pip install -r requirements.txt``` to install necessary packages (if needed).
 
 ```
 cd NASA-SE
