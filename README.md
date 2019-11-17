@@ -9,7 +9,7 @@ Projects in this repo:
 
 Datasets used in the project are availale in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data). 
 
-```pip install -r requirements.txt``` to install necessary packages (if needed).
+```pip install -r requirements.txt``` to install necessary packages if needed.
 
 ### 1. Concept Recognition (CR)
 
