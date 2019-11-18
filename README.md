@@ -100,7 +100,7 @@ python -i tag_sentence.py
 SEVA-TOIE is a targetted open domain information extractor for simple systems engineering sentences which is based on domain specific rules constructed over universal dependencies. It extracts fine-grained triples from sentences and can be used for downstream tasks such as knowledge graph construction and question-asnwering.
 
 #### Jar files to be downloaded.
-Keep the following files in ```stanford_jars``` folder
+Keep the following files in ```NASA-SE/stanford_jars``` folder
 * [Stanford Parser](https://nlp.stanford.edu/software/lex-parser.shtml): ```stanford-parser-3.9.2-models.jar```, ```stanford-parser.jar```
 * [Stanford POSTagger](https://nlp.stanford.edu/software/tagger.shtml): ```english-bidirectional-distsim.tagger```, ```stanford-postagger-3.9.2.jar```
 
