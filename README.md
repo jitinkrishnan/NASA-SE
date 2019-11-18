@@ -111,7 +111,7 @@ cd NASA-SE
 python -i seva_toie.py
 >>> sentence = "STI is an instrument."
 >>> toie(sentence)
-[('STI', 'is', 'instrument)]
+[('STI', 'is-a', 'instrument)]
 >>> sentence = "STI, an instrument, has a 2500 pixel CCD detector."
 >>> toie(sentence)
 [('STI', 'has', 'CCD detector'), ('STI', 'is-a', 'instrument'), ('CCD detector', 'has-property', '2500 pixel')]
