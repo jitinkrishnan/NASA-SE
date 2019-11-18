@@ -1,6 +1,8 @@
 import nltk, re
-import nltk
 from nltk.corpus import stopwords
+import enchant
+from nltk import ngrams
+d = enchant.Dict("en_US")
 
 # create a dictionary
 # input: accronym file
@@ -194,6 +196,98 @@ def read_annotated_keywords_inverse(fname):
             term = " ".join(line.split(",")[:-1]).strip()
             tag_dict[term.strip().lower()] = tag
     return tag_dict
+
+def is_ascii(s):
+    return all(ord(c) < 128 for c in s)
+
+def update_vocab(location_of_vocab, *input_fname):
+    text = ""
+    for fname in input_fname:
+        f_read = open(fname)
+        text += " " + f_read.read()
+        f_read.close()
+    new_words = nltk.word_tokenize(text)
+    new_words = [w.strip().lower() for w in new_words]
+    new_words = set(new_words)
+    n = len(new_words)
+
+    f = open(location_of_vocab)
+    text = f.readlines()
+    f.close()
+    old_words = [w.strip() for w in text]
+
+    o_len = len(old_words)
+    old_words = set(old_words)
+
+    words = old_words.union(new_words)
+
+    num_words2remove = len(words) - o_len
+
+    while num_words2remove > 0 :
+        num_words = len(words)
+        count = 1
+        for item in words:
+            count += 1
+            if not is_ascii(item):
+                words.remove(item)
+                num_words2remove -= 1
+                break
+        if count >= num_words:
+            break
+
+    unused = 993
+
+    while num_words2remove > 0 and unused >=0 :
+        for item in words:
+            if 'unused' in item:
+                words.remove(item)
+                num_words2remove -= 1
+                unused -= 1
+                break
+
+    assert(o_len == len(words))
+
+    f = open(location_of_vocab, 'w+')
+    for word in words:
+        f.write(word)
+        f.write('\n')
+    f.close()
+
+def sentence2tag_keyword(sentence, keyword_fname):
+    phrase_labels = []
+    d = read_annotated_keywords_inverse(keyword_fname)
+    for i in reversed(range(1, 6)):
+        words = nltk.word_tokenize(sentence)
+        igrams = ngrams(words, i)
+        for g in igrams:
+            phrase = " ".join(g).strip()
+            if d.get(phrase.lower(), None) != None:
+                phrase_labels.append((phrase,d[phrase.lower()]))
+                sentence = sentence.replace(phrase, "").strip()
+    return phrase_labels
+
+
+def keywords2sentposlabel(keyword_fname):
+    d = read_annotated_keywords_inverse(keyword_fname)
+    sentences = []
+    poses = []
+    labels = []
+    for key,val in d.items():
+        words = nltk.word_tokenize(key)
+        #words.append(".")
+        pos = nltk.pos_tag(words)
+        pos = [p[1] for p in pos]
+        lab = []
+        for index in range(len(words)):
+            if index == 0:
+                lab.append('B-'+val)
+            else:
+                lab.append('I-'+val)
+        sentences.append(words)
+        poses.append(pos)
+        labels.append(lab)
+    return sentences, poses, labels
+    
 
 
 ######## USAGE EXAMPLE ########
