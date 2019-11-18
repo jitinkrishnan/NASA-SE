@@ -31,7 +31,7 @@ mitigating action is required."
 #### Training and Evaluating a custom CR model
 
 ##### Download Uncased [BERT model](https://github.com/google-research/bert) to NASA-SE folder.
-Rename the folder to ```bert_models```. You can change the BERT vocabulary if needed. There are a few caveats to this. The number of words should remain the same and should include the BERT tokens. BERT recommends replacing the `unused` words with domain words. However, this may not always guarantee a better performance. The example shown below updates the ```vocab.txt``` file with the words from two files: accronyms and definitions.
+Rename the bert folder to ```bert_models```. You can change the BERT vocabulary if needed. There are a few caveats to this. The number of words should remain the same and should include the BERT tokens. BERT recommends replacing the `unused` words with domain words. However, this may not always guarantee a better performance. The example shown below updates the ```vocab.txt``` file with the words from two files: accronyms and definitions. Vocab files we used are in ```bert_items``` folder.
 ```
 cd NASA-SE
 python -i seva_dataset_utils.py
@@ -99,6 +99,12 @@ python -i tag_sentence.py
 
 SEVA-TOIE is a targetted open domain information extractor for simple systems engineering sentences which is based on domain specific rules constructed over universal dependencies. It extracts fine-grained triples from sentences and can be used for downstream tasks such as knowledge graph construction and question-asnwering.
 
+#### Jar files to be downloaded.
+Keep the following files in ```NASA-SE/stanford_jars``` folder
+* [Stanford Parser](https://nlp.stanford.edu/software/lex-parser.shtml): ```stanford-parser-3.9.2-models.jar```, ```stanford-parser.jar```
+* [Stanford POSTagger](https://nlp.stanford.edu/software/tagger.shtml): ```english-bidirectional-distsim.tagger```, ```stanford-postagger-3.9.2.jar```
+
+#### Sample Run
 ```
 cd NASA-SE
 python -i seva_toie.py
