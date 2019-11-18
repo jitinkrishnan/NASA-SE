@@ -69,7 +69,7 @@ mitigating action is required."
 #### Construct a Knowledge Graph
 [Here](https://github.com/jitinkrishnan/NASA-SE/blob/master/SEVA_KG_Example.ipynb) is a jupyter notebbok example of KG construction using accronyms and definitions.
 
-![pic](https://github.com/jitinkrishnan/NASA-SE/blob/master/images/kg_example.png)
+![pic](https://github.com/jitinkrishnan/NASA-SE/blob/master/kg_example.png)
 
 #### Verb Phrase Chunking
 Makes simple verb based connection between two near-by entities.
