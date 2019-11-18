@@ -30,9 +30,7 @@ mitigating action is required."
 ```
 #### Training and Evaluating a custom CR model
 
-##### Necessary Items
-
-###### Download Uncased [BERT model](https://github.com/google-research/bert) to NASA-SE folder.
+##### Download Uncased [BERT model](https://github.com/google-research/bert) to NASA-SE folder.
 Rename the folder to ```bert_models```. You can change the BERT vocabulary if needed. There are a few caveats to this. The number of words should remain the same and should include the BERT tokens. BERT recommends replacing the `unused` words with domain words. However, this may not always guarantee a better performance. The example shown below updates the ```vocab.txt``` file with the words from two files: accronyms and definitions.
 ```
 cd NASA-SE
@@ -44,7 +42,7 @@ update_vocab(vocab_location, accr_location, definition_location)
 ```
 [Here](https://github.com/jitinkrishnan/NASA-SE/blob/master/SPacy-CR-Example.ipynb) is an example using spaCy.
 
-###### [Datasets](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data)
+##### [Datasets](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data)
 * [CR annotated dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/se_ner_annotated.tsv) 
 * [Accronyms dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/acronyms.txt)
 * [Definitions dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/definitions.txt)
