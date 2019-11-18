@@ -42,6 +42,8 @@ python -i seva_dataset_utils.py
 >> vocab_location = "bert_models/vocab.txt"
 update_vocab(vocab_location, accr_location, definition_location)
 ```
+[Here](https://github.com/jitinkrishnan/NASA-SE/blob/master/SPacy-CR-Example.ipynb)is an example using spaCy.
+
 ###### [Datasets](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data)
 * [CR annotated dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/se_ner_annotated.tsv) 
 * [Accronyms dataset](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/acronyms.txt)
