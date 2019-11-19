@@ -8,7 +8,6 @@ Projects in this repo:
 *   **[`SEVA: A Systems Engineer's Virtual Assistant`](http://ceur-ws.org/Vol-2350/paper3.pdf)** ([AAAI-MAKE 2019](https://2019.aaai-make.info))
 
 Datasets used in the project are availale in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data). 
-Please consider citing and feel free to contact if you find our research useful.
 
 ```pip install -r requirements.txt``` to install necessary packages if needed.
 
