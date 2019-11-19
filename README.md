@@ -13,7 +13,7 @@ Datasets used in the project are availale in the [datafolder](https://github.com
 
 ### 1. Concept Recognition (CR)
 
-We aim to extract common-knowledge concepts for the Systems Engineering domain. With the help of a domain expert and text processing methods, we construct a dataset annotated at the word-level by carefully defining a BIO labelling scheme to train a NER-like sequence model to recognize systems engineering concepts.
+We aim to extract common-knowledge concepts for the systems engineering domain. With the help of a domain expert and text processing methods, we construct a dataset annotated at the word-level by carefully defining a BIO labelling scheme to train a NER-like sequence model to recognize systems engineering concepts.
 
 
 #### If you just want to extract concepts right away
