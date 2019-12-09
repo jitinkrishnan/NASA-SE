@@ -4,7 +4,7 @@
 ### A Virtual Assistant for NASA's Systems Engineers
 
 Projects in this repo:
-*   `Common-Knowledge Concept Recognition for SEVA` (**In Progress**)
+*   `Common-Knowledge Concept Recognition for SEVA` (**In Progress** - Accepted at [AAAI-MAKE 2020](https://www.aaai-make.info))
 *   **[`SEVA: A Systems Engineer's Virtual Assistant`](http://ceur-ws.org/Vol-2350/paper3.pdf)** ([AAAI-MAKE 2019](https://2019.aaai-make.info/aaai-make))
 
 Datasets used in the project are availale in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data). 
