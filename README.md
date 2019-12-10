@@ -4,7 +4,7 @@
 ### A Virtual Assistant for NASA's Systems Engineers
 
 Projects in this repo:
-*   `Common-Knowledge Concept Recognition for SEVA` (**In Progress** - Accepted at [AAAI-MAKE 2020](https://www.aaai-make.info))
+*   `Common-Knowledge Concept Recognition for SEVA` ([AAAI-MAKE 2020](https://www.aaai-make.info)) (Document will be available soon.)
 *   **[`SEVA: A Systems Engineer's Virtual Assistant`](http://ceur-ws.org/Vol-2350/paper3.pdf)** ([AAAI-MAKE 2019](https://2019.aaai-make.info/aaai-make))
 
 Datasets used in the project are availale in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data). 
@@ -126,6 +126,13 @@ Try with more example/template [sentences](https://github.com/jitinkrishnan/NASA
   author={Krishnan, Jitin and Coronado, Patrick and Reed, Trevor},
   booktitle={AAAI Spring Symposium: Combining Machine Learning with Knowledge Engineering},
   year={2019}
+}
+
+@inproceedings{krishnan2020ckcr,
+  title={Common-Knowledge Concept Recognition for SEVA},
+  author={Krishnan, Jitin and Purohit, Hemant and Rangwala, Huzefa},
+  booktitle={AAAI Spring Symposium: Combining Machine Learning with Knowledge Engineering},
+  year={2020}
 }
 ```
 
