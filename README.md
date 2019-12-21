@@ -130,7 +130,7 @@ Try with more example/template [sentences](https://github.com/jitinkrishnan/NASA
 
 @inproceedings{krishnan2020ckcr,
   title={Common-Knowledge Concept Recognition for SEVA},
-  author={Krishnan, Jitin and Purohit, Hemant and Rangwala, Huzefa},
+  author={Krishnan, Jitin and Coronado, Patrick and Purohit, Hemant and Rangwala, Huzefa},
   booktitle={AAAI Spring Symposium: Combining Machine Learning with Knowledge Engineering},
   year={2020}
 }
