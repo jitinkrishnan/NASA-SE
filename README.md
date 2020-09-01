@@ -7,6 +7,24 @@ Projects in this repo:
 *   **[`Common-Knowledge Concept Recognition for SEVA`](http://ceur-ws.org/Vol-2600/paper10.pdf)** ([AAAI-MAKE 2020](https://www.aaai-make.info))
 *   **[`SEVA: A Systems Engineer's Virtual Assistant`](http://ceur-ws.org/Vol-2350/paper3.pdf)** ([AAAI-MAKE 2019](https://2019.aaai-make.info/aaai-make))
 
+### Citation
+```
+@inproceedings{krishnan2019seva,
+  title={SEVA: A Systems Engineer's Virtual Assistant},
+  author={Krishnan, Jitin and Coronado, Patrick and Reed, Trevor},
+  booktitle={AAAI Spring Symposium: Combining Machine Learning with Knowledge Engineering},
+  year={2019}
+}
+
+@inproceedings{krishnan2020ckcr,
+  title={Common-Knowledge Concept Recognition for SEVA},
+  author={Krishnan, Jitin and Coronado, Patrick and Purohit, Hemant and Rangwala, Huzefa},
+  booktitle={AAAI Spring Symposium: Combining Machine Learning with Knowledge Engineering},
+  year={2020}
+}
+```
+
+### Note
 Datasets used in the project are availale in the [datafolder](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data). 
 
 ```pip install -r requirements.txt``` to install necessary packages if needed.
@@ -118,23 +136,6 @@ python -i seva_toie.py
 [('STI', 'has', 'CCD detector'), ('STI', 'is-a', 'instrument'), ('CCD detector', 'has-property', '2500 pixel')]
 ```
 Try with more example/template [sentences](https://github.com/jitinkrishnan/NASA-SE/blob/master/se_data/seva-toie-sentences.txt).
-
-### Citation
-```
-@inproceedings{krishnan2019seva,
-  title={SEVA: A Systems Engineer's Virtual Assistant},
-  author={Krishnan, Jitin and Coronado, Patrick and Reed, Trevor},
-  booktitle={AAAI Spring Symposium: Combining Machine Learning with Knowledge Engineering},
-  year={2019}
-}
-
-@inproceedings{krishnan2020ckcr,
-  title={Common-Knowledge Concept Recognition for SEVA},
-  author={Krishnan, Jitin and Coronado, Patrick and Purohit, Hemant and Rangwala, Huzefa},
-  booktitle={AAAI Spring Symposium: Combining Machine Learning with Knowledge Engineering},
-  year={2020}
-}
-```
 
 ### Contact information
 
