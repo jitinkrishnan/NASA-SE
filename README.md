@@ -1,7 +1,7 @@
 ## NASA-SE
 
 ### Project Members:
-- Jitin Krishnan (PhD Student, George Mason University)
+- Jitin Krishnan (PhD Candidate, George Mason University)
 - Patrick Coronado (Instrument Systems Engineer, NASA Goddard Space Flight Center)
 - Trevor Reed (Robot Operations, NASA Jet Propulsion Laboratory)
 - Hemant Purohit (Assistant Professor, George Mason University)
