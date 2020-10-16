@@ -13,6 +13,9 @@ Projects in this repo:
 *   **[`Common-Knowledge Concept Recognition for SEVA`](http://ceur-ws.org/Vol-2600/paper10.pdf)** ([AAAI-MAKE 2020](https://www.aaai-make.info))
 *   **[`SEVA: A Systems Engineer's Virtual Assistant`](http://ceur-ws.org/Vol-2350/paper3.pdf)** ([AAAI-MAKE 2019](https://2019.aaai-make.info/aaai-make))
 
+Part of the Robust Software Engineering-Led Group that won the Digital Transformation [Hackathon](https://ti.arc.nasa.gov/news/RSE-DT-Award-2020/) Award for "Most Potential NASA Impact".
+September 2020.
+
 ### Citation
 ```
 @inproceedings{krishnan2019seva,
