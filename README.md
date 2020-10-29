@@ -1,6 +1,6 @@
 ## NASA-SE
 
-### A Virtual Assistant for NASA's Systems Engineers
+### SEVA: A Virtual Assistant for NASA's Systems Engineers
 
 Projects in this repo:
 *   **[`Common-Knowledge Concept Recognition for SEVA`](http://ceur-ws.org/Vol-2600/paper10.pdf)** ([AAAI-MAKE 2020](https://www.aaai-make.info))
