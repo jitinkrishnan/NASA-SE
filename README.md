@@ -9,7 +9,7 @@ Projects in this repo:
 Part of the Robust Software Engineering-Led Group that won the Digital Transformation [Hackathon](https://ti.arc.nasa.gov/news/RSE-DT-Award-2020/) Award for "Most Potential NASA Impact".
 September 2020.
 
-[AAAI-MAKE 2019 Presentation Slides](https://drive.google.com/file/d/15o_uVT3OqfY9g8H_sh6wxYMr_YNk49v6/view?usp=sharing) | [Demo Slides](https://drive.google.com/file/d/1Qy7XD9w9KlISu-Rpqy-ktfrBbL4ojVaA/view?usp=sharing) | [GSFC Short Talk] (https://asd.gsfc.nasa.gov/conferences/ai/program/018-Krishnan_GSFC_ShortTalkV2.pdf)
+[AAAI-MAKE 2019 Presentation Slides](https://drive.google.com/file/d/15o_uVT3OqfY9g8H_sh6wxYMr_YNk49v6/view?usp=sharing) | [Demo Slides](https://drive.google.com/file/d/1Qy7XD9w9KlISu-Rpqy-ktfrBbL4ojVaA/view?usp=sharing) | [GSFC Short Talk](https://asd.gsfc.nasa.gov/conferences/ai/program/018-Krishnan_GSFC_ShortTalkV2.pdf)
 
 ### Citation
 ```
